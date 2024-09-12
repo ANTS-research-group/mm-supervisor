@@ -1,0 +1,3 @@
+# ignore__pycache__ and .pyc files
+__pycache__/
+*.py[cod]
