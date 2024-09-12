@@ -1,0 +1,612 @@
+2024-07-15 17:32:01,696 - DEBUG - [line 31 in connectivity_5g.py] starting service... 
+2024-07-15 17:32:32,747 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'Se alcanzó el tiempo de expiración'
+ 
+2024-07-15 17:43:14,098 - DEBUG - [line 31 in connectivity_5g.py] starting service... 
+2024-07-15 17:43:45,147 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'Se alcanzó el tiempo de expiración'
+ 
+2024-07-15 17:44:49,560 - DEBUG - [line 31 in connectivity_5g.py] starting service... 
+2024-07-15 17:44:58,157 - DEBUG - [line 92 in connectivity_5g.py] Interface wwan0 is not configured. Reconfiguring. 
+2024-07-15 17:44:58,323 - DEBUG - [line 137 in DeviceModule.py] CompletedProcess(args=['sudo', 'udhcpc', '-n', '-q', '-f', '-i', 'wwan0', '-t', '5', '-T', '1'], returncode=0) 
+2024-07-15 17:44:58,750 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:44:58,750 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:00,257 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:00,319 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:00,319 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:01,826 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:01,888 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:01,888 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:03,395 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:03,450 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:03,450 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:11,413 - DEBUG - [line 31 in connectivity_5g.py] starting service... 
+2024-07-15 17:45:20,034 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:20,089 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:20,090 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:21,597 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:21,649 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:21,650 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:23,157 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:23,209 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:23,210 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:24,718 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:24,769 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:24,770 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:26,277 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:26,329 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:26,330 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:27,839 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:27,890 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:27,890 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:29,399 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:29,449 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:29,450 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:30,958 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:31,009 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:31,010 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:32,519 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:32,570 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:32,570 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:34,078 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:34,141 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:34,141 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:35,649 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:35,710 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:35,711 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:37,218 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:37,270 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:37,271 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:38,779 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:38,830 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:38,831 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:40,339 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:40,390 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:40,391 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:41,896 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:41,950 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:41,950 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:43,458 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:43,510 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:43,510 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:45,018 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:45,069 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:45,070 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:46,578 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:46,630 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:46,630 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:48,139 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:48,190 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:48,190 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:49,699 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:49,750 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:49,750 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:51,257 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:51,310 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:51,311 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:52,819 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:52,870 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:52,870 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:54,379 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:54,430 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:54,431 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:55,938 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:55,990 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:55,991 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:57,497 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:57,550 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:57,550 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:45:59,056 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:45:59,110 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:45:59,111 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:00,620 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:00,677 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:00,678 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:02,185 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:02,249 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:02,250 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:03,759 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:03,810 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:03,810 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:05,319 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:05,369 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:05,370 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:06,878 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:06,929 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:06,930 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:08,439 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:08,490 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:08,490 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:09,999 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:10,049 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:10,050 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:11,558 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:11,609 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:11,610 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:13,118 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:13,169 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:13,170 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:14,678 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:14,729 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:14,730 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:16,235 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:16,290 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:16,290 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:17,798 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:17,849 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:17,849 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:19,358 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:19,409 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:19,410 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:20,918 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:20,969 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:20,970 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:22,479 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:22,529 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:22,530 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:24,038 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:24,089 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:24,090 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:25,599 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:25,649 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:25,650 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:27,157 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:27,209 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:27,210 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:28,718 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:28,769 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:28,770 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:30,277 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:30,329 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:30,330 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:31,837 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:31,889 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:31,889 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:33,394 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:33,449 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:33,450 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:34,957 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:35,009 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:35,009 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:36,518 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:36,569 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:36,570 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:38,078 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:38,129 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:38,130 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:39,640 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:39,689 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:39,690 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:41,202 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:41,270 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:41,271 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:42,783 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:42,849 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:42,850 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:44,361 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:44,410 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:44,411 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:45,922 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:45,991 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:45,992 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:47,497 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:47,550 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:47,550 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:49,061 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:49,130 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:49,131 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:50,640 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:50,689 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:50,690 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:52,200 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:52,249 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:52,250 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:53,761 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:53,810 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:53,811 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:55,320 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:55,369 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:55,370 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:56,879 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:56,929 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:56,930 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:58,439 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:46:58,489 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:46:58,490 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:46:59,995 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:00,050 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:00,051 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:01,560 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:01,610 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:01,610 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:03,119 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:03,169 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:03,170 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:04,678 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:04,729 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:04,730 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:06,239 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:06,289 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:06,290 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:07,799 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:07,849 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:07,850 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:09,359 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:09,409 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:09,410 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:10,922 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:10,991 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:10,992 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:12,501 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:12,550 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:12,551 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:14,059 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:14,110 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:14,110 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:15,618 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:15,670 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:15,670 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:17,178 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:17,230 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:17,231 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:18,739 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:18,792 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:18,793 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:20,300 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:20,350 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:20,350 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:21,859 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:21,910 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:21,910 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:23,419 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:23,471 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:23,471 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:24,982 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:25,050 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:25,051 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:26,559 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:26,609 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:26,610 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:28,118 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:28,169 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:28,170 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:29,679 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:29,729 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:29,730 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:31,238 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:31,290 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:31,290 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:32,794 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:32,849 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:32,850 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:34,357 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:34,409 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:34,410 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:35,918 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:35,968 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:35,969 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:37,476 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:37,539 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:37,539 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:39,047 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:39,110 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:39,111 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:40,619 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:40,670 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:40,670 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:42,179 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:42,239 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:42,239 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:43,748 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:43,818 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:43,819 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:45,327 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:45,391 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:47:45,391 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:47:46,900 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:47:54,420 - ERROR - [line 101 in connectivity_5g.py] Connectivity lost. Reconfiguring interface. 
+2024-07-15 17:48:34,325 - DEBUG - [line 92 in connectivity_5g.py] Interface wwan0 is not configured. Reconfiguring. 
+2024-07-15 17:48:34,486 - DEBUG - [line 137 in DeviceModule.py] CompletedProcess(args=['sudo', 'udhcpc', '-n', '-q', '-f', '-i', 'wwan0', '-t', '5', '-T', '1'], returncode=0) 
+2024-07-15 17:48:34,552 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:34,553 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:36,061 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:36,110 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:36,110 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:37,618 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:37,670 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:37,671 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:39,179 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:39,230 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:39,231 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:40,739 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:40,790 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:40,791 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:42,299 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:42,350 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:42,351 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:43,859 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:43,918 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:43,918 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:45,426 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:45,489 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:45,489 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:46,996 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:47,049 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:47,050 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:48,558 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:48,609 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:48,610 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:50,114 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:50,169 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:50,170 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:51,677 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:51,728 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:51,729 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:53,235 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:53,288 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:53,288 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:54,796 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:54,849 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:54,850 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:56,359 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:56,409 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:56,410 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:57,918 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:57,969 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:57,969 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:48:59,477 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:48:59,528 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:48:59,529 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:01,036 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:01,089 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:01,090 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:02,598 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:02,649 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:02,650 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:04,158 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:04,209 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:04,210 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:05,715 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:05,769 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:05,770 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:07,276 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:07,329 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:07,329 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:08,836 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:08,889 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:08,889 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:10,397 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:10,449 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:10,449 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:11,958 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:12,009 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:12,010 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:13,519 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:13,569 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:13,570 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:15,077 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:15,129 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:15,129 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:16,636 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:16,688 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:16,689 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:18,196 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:18,249 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:18,250 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:19,758 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:19,809 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:19,810 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:21,318 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:21,369 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:21,370 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:22,878 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:22,929 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:22,930 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:24,437 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:24,489 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:24,490 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:25,996 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:26,049 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:26,050 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:27,555 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:27,609 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:27,609 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:29,116 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:29,168 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:29,169 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:30,677 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:30,729 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:30,730 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:32,238 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:32,289 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:32,290 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:33,797 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:33,849 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:33,850 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:35,357 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:35,409 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:35,410 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:36,918 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:36,969 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:36,970 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:38,478 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:38,529 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:38,530 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:40,038 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:40,089 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:40,090 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:41,598 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:41,649 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:41,650 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:43,157 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:43,209 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:43,210 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:44,715 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:44,770 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:44,770 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:46,278 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:46,329 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:46,329 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:47,833 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:47,889 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:47,890 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:49,397 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:49,449 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:49,450 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:50,958 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:51,009 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:51,010 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:52,518 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:52,569 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:52,570 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:54,078 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:54,139 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:54,139 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:55,647 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:55,710 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:55,710 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:57,218 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:57,270 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:57,270 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:49:58,778 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:49:58,830 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:49:58,831 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:00,342 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:00,410 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:00,411 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:01,916 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:01,970 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:01,971 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:03,478 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:03,529 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:03,529 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:05,037 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:05,089 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:05,090 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:06,598 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:06,649 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:06,650 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:08,157 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:08,209 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:08,210 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:09,718 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:09,769 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:09,770 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:11,277 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:11,329 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:11,330 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:12,836 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:12,889 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:12,889 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:14,397 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:14,449 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:14,449 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:15,958 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:16,009 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:16,010 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:17,518 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:17,569 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:17,569 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:19,075 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:19,134 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:19,135 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:20,642 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:20,689 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:20,689 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:22,196 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:22,249 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:22,250 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:23,758 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:23,809 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:23,810 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:25,317 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:25,369 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:25,370 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:26,878 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:26,929 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:26,929 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:28,438 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:28,489 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:28,490 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:29,998 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:30,049 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:30,050 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:31,557 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:31,609 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:31,610 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:33,118 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:33,169 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:33,170 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:34,677 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:34,734 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:34,734 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:36,240 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:36,289 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:36,290 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:37,794 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:37,849 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:37,850 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:39,355 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:39,409 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:39,409 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:40,915 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:40,968 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:40,969 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:42,476 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:42,529 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:42,530 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:44,038 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:44,089 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:44,090 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:45,598 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:45,649 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:45,650 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:47,158 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:47,209 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:47,210 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:48,718 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:48,769 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:48,770 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:50,278 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:50,330 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:50,331 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:51,839 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:51,889 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:51,889 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:53,397 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:53,449 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:53,450 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:54,957 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:55,009 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:55,010 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:56,516 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:56,569 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:56,569 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:58,073 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:58,129 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:58,130 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:50:59,639 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:50:59,689 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:50:59,689 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:51:01,196 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:51:01,250 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:51:01,250 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:51:02,759 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:51:02,808 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:51:02,809 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:51:04,316 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:51:04,369 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:51:04,370 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:51:05,878 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:51:05,929 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:51:05,930 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:51:07,438 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:51:07,489 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:51:07,490 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:51:08,998 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:51:09,050 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:51:09,050 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:51:10,558 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:51:10,609 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:51:10,610 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 
+2024-07-15 17:51:12,118 - DEBUG - [line 89 in connectivity_5g.py] Interface wwan0 is already configured. 
+2024-07-15 17:51:12,170 - DEBUG - [line 107 in connectivity_5g.py] SET UP GET INFO MODE 
+2024-07-15 17:51:12,171 - DEBUG - [line 112 in connectivity_5g.py] StateMachineConfig.STATE_CONFIGURE_DHCP_MODE 

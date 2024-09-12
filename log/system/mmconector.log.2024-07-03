@@ -1,0 +1,89 @@
+2024-07-03 12:26:59,381 - DEBUG - [line 31 in connectivity_5g.py] starting service... 
+2024-07-03 12:26:59,884 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:00,385 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:00,886 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:01,388 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:01,889 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:02,390 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:02,892 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:03,393 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:03,894 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:04,395 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:04,896 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:05,397 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:05,898 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:06,399 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:06,900 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:07,400 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:07,901 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:08,402 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:08,904 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:09,404 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:09,906 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:10,407 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:10,908 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:11,409 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:11,910 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:12,412 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:12,913 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:13,414 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:13,915 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:14,416 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:14,917 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:15,418 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:15,919 - DEBUG - [line 207 in connectivity_5g.py] getting modem info 
+2024-07-03 12:27:43,342 - DEBUG - [line 31 in connectivity_5g.py] starting service... 
+2024-07-03 12:27:44,371 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:44,401 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:44,946 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:44,978 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:45,522 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:45,554 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:46,132 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:46,195 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:50,703 - DEBUG - [line 31 in connectivity_5g.py] starting service... 
+2024-07-03 12:27:51,732 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:51,794 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:52,338 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:52,372 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:52,948 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:53,010 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:53,555 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:53,620 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:54,196 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:27:54,260 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:30:08,608 - DEBUG - [line 31 in connectivity_5g.py] starting service... 
+2024-07-03 12:30:09,653 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:30:09,715 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:30:10,260 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:30:10,291 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:30:10,839 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:30:10,901 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:30:11,478 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 
+2024-07-03 12:30:11,540 - DEBUG - [line 205 in DeviceModule.py] device wasn't registered: error: couldn't register the modem: 'GDBus.Error:org.freedesktop.libqmi.Error.Protocol.DeviceUnsupported: Couldn't set network selection preference: QMI protocol error (25): 'DeviceUnsupported''
+ 

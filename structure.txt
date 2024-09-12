@@ -1,0 +1,95 @@
+            bearer_index = get_active_bearer_index(modem_index)
+            
+            if bearer_index is None:
+                log.debug("No active bearer found. Attempting to connect.")
+                if not connect_modem(modem_index):
+                    
+                    if retries_without_bearer >= RETRIES_WITHOUT_BEARER:
+                        retries_without_bearer = 0
+                        log.debug(f"Max retries without bearer has been reached. Restarting device and retrying in {TIME_DELAY_TO_RESET} seconds.")
+                        reset_modem(modem_index)
+                        time.sleep(TIME_DELAY_TO_RESET)
+                        continue
+                        
+                    else:
+                        retries_without_bearer += 1
+                        log.debug(f"It was not possible connect to {HOME_PLMN}. Retries: {retries_without_bearer}")
+                        log.debug(f"Retrying in {TIME_DELAY} seconds.")
+                        time.sleep(TIME_DELAY)
+                        continue
+
+                else:
+
+                    bearer_index = get_active_bearer_index(modem_index)
+                    is_connected = is_bearer_connected(bearer_index)
+
+                    if bearer_index is None or not is_connected:
+                        if retries_without_bearer >= RETRIES_WITHOUT_BEARER:
+                            retries_without_bearer = 0
+                            log.debug(f"Max retries without bearer has been reached. Restarting device")
+                            log.debug(f"Retrying in {TIME_DELAY_TO_RESET} seconds.")
+                            reset_modem(modem_index)
+                            time.sleep(TIME_DELAY_TO_RESET)
+                            continue
+                        else:
+                            retries_without_bearer += 1
+                            log.debug(f"It was not possible connect to {HOME_PLMN}. Retries: {retries_without_bearer}")
+                            log.debug(f"Retrying in {TIME_DELAY} seconds.")
+                            time.sleep(TIME_DELAY)
+                            continue
+                    else:
+                        log.debug(f"Bearer {bearer_index} is connected.")
+                        plmn_connected = get_plmn_connected(modem_index)
+                        retries_without_bearer = 0
+                        
+            log.debug(f"Modem index: {modem_index}, Active Bearer index: {bearer_index}")
+
+            # check if there is roaming
+            new_plmn = get_plmn_connected(modem_index)
+            log.debug(f"new_plmn: {new_plmn}")
+            if new_plmn == None and plmn_connected == None:
+                if retries_without_plmn >= RETRIES_WITHOUT_PLMN:
+                    retries_without_plmn = 0
+                    log.debug(f"Max retries without bearer has been reached.")
+                    log.debug(f"Restarting device and retrying in {TIME_DELAY_TO_RESET} seconds.")
+                    reset_modem(modem_index)
+                    time.sleep(TIME_DELAY_TO_RESET)
+                    continue
+                    
+                else:
+                    retries_without_plmn += 1
+                    log.debug(f"NEWPLMN and OLDPLMN are None. It was not possible connect to {HOME_PLMN}. Retries: {retries_without_plmn}")
+                    log.debug(f"Retrying in {TIME_DELAY} seconds.")
+                    log.debug("Trying to connect again...")
+                    connect_modem(modem_index)
+            elif plmn_connected != new_plmn:
+                log.debug(f"The serving system of the modem has been changed. Old PLMN: {plmn_connected} - New PLMN: {new_plmn}")
+                log.debug("It's neccesary to reconfigure new bearer")
+                bearer_index = None
+                is_connected = False
+                plmn_connected = new_plmn
+                reconfigure_interface()
+                log.debug("Trying to connect again...")
+                connect_modem(modem_index)
+                continue
+
+            
+
+            signal_strength = check_signal_strength(modem_index)
+            if signal_strength is None:
+                log.debug("Could not retrieve signal strength.")
+            elif signal_strength < SIGNAL_STRENGTH_TRHRESHOLD:  # Adjust the threshold as needed
+                log.debug(f"Low signal strength detected: {signal_strength}%")
+                if not check_connectivity():
+                    log.debug("Connectivity lost. Reconfiguring interface.")
+                    reconfigure_interface()
+                else:
+                    log.debug("Connectivity is still up despite low signal strength.")
+            else:
+                log.debug(f"Signal strength is sufficient: {signal_strength}%")
+            
+            if not is_interface_configured():
+                log.debug("Interface wwan0 is not configured. Reconfiguring.")
+                reconfigure_interface()
+            else:
+                log.debug("Interface wwan0 is already configured.")
